@@ -1,9 +1,11 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import styles from '../../styles';
 import { textVariant, slideIn, staggerContainer } from '../utils/motion';
+import Image from 'next/image';
+import Cover from 'public/cover.png';
+import Stamp from 'public/stamp.png';
 
 const Hero = () => (
   <section className="py-12 sm:py-16 pl-6 sm:pl-16">
@@ -34,20 +36,18 @@ const Hero = () => (
       >
         <div className="w-full absolute -top-8 h-80 hero-gradient rounded-tl-[140px]" />
         <Image
-          src="/cover.png"
+          src={Cover}
           alt="cover hero section"
-          width={3915}
-          height={2595}
           className="w-full h-[350px] sm:h-[500px] object-cover relative rounded-tl-[140px]"
+          placeholder="blur"
         />
 
         <div className="w-full flex justify-end -mt-12 sm:-mt-[70px] pr-10 relative z-10">
           <Image
-            src="/stamp.png"
+            src={Stamp}
             alt="stamp"
-            width={495}
-            height={497}
             className="w-24 sm:w-40 h-24 sm:h-40 object-contain"
+            placeholder="blur"
           />
         </div>
       </motion.div>

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import { ExploreProps } from '../types/props';
+import Headset from '/public/headset.svg';
 
 const ExploreCard = ({ item, index, active, handleClick }: ExploreProps) => (
   <motion.div
@@ -25,10 +26,8 @@ const ExploreCard = ({ item, index, active, handleClick }: ExploreProps) => (
       <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-3xl">
         <div className="flex justify-center items-center w-16 h-16 rounded-3xl glassmorphism mb-4">
           <Image
-            src="/headset.svg"
+            src={Headset}
             alt="headset"
-            width={200}
-            height={200}
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
