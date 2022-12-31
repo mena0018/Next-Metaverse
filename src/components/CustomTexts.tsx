@@ -2,17 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion';
-import { ReactNode } from 'react';
-
-type TypingProps = {
-  title: string;
-  textStyles: string;
-};
-
-type TitleProps = {
-  children: ReactNode;
-  textStyles: string;
-};
+import { TitleProps, TypingProps } from '../types/props';
 
 export const TypingText = ({ title, textStyles }: TypingProps) => (
   <motion.p
