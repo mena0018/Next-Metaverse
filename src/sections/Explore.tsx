@@ -22,7 +22,7 @@ const Explore = () => {
         <TypingText title="| The World" textStyles="text-center" />
         <TitleText textStyles="text-center">
           Choose the world you want
-          <br className="hidden md:block" /> to explore
+          <br className="hidden lg:block" /> to explore
         </TitleText>
 
         <div className="w-full mt-12 flex gap-5 flex-col lg:flex-row min-h-[70vh]">
