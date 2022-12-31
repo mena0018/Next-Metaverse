@@ -10,10 +10,15 @@ export type ExploreProps = {
 
 export type TypingProps = {
   title: string;
-  textStyles: string;
+  textStyles?: string;
 };
 
 export type TitleProps = {
   children: ReactNode;
-  textStyles: string;
+  textStyles?: string;
+};
+
+export type StartStepsProps = {
+  number: number;
+  content: string;
 };
