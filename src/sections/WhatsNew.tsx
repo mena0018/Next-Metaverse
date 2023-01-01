@@ -25,7 +25,6 @@ const WhatsNew = () => (
         <TypingText title="| What's new " textStyles="text-left" />
         <TitleText>What's new about Metaversus?</TitleText>
 
-        {/* lg:justify-start lg:gap-10 */}
         <div className="mt-12 flex flex-wrap justify-between">
           {newFeatures.map((item: Feature, index: number) => (
             <NewFeatures key={index} data={item} />
