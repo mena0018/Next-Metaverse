@@ -10,6 +10,16 @@
   scroll-behavior: smooth;
 }
 
+@layer components {
+  .hero-heading {
+    @apply font-bold uppercase text-white text-[44px] sm:text-[60px] md:text-[100px] lg:text-[144px] leading-[64.4px]  sm:leading-[74.4px] md:leading-[114.4px] lg:leading-[158.4px];
+  }
+  .hero-D-text {
+    @apply border-white w-[60px] sm:w-[80px] md:w-[212px] h-[38px] sm:h-[48px] md:h-[108px] border-[9px] md:border-[18px] rounded-r-[50px] mx-[6px] sm:mx-2;
+  }
+}
+
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
