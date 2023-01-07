@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { staggerContainer, planetVariants, fadeIn } from '../utils/motion';
+import { planetVariants, fadeIn } from '../utils/motion';
 import Planet from '/public/get-started.png';
 import { TypingText, TitleText } from '../components/CustomTexts';
 import { StartSteps } from '../components';
@@ -11,7 +11,6 @@ import { startingFeatures } from '../constants';
 const GetStarted = () => (
   <section className="py-12 px-6 sm:p-16">
     <motion.div
-      variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}

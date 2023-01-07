@@ -3,14 +3,13 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { TypingText } from '../components';
-import { fadeIn, staggerContainer } from '../utils/motion';
+import { fadeIn } from '../utils/motion';
 
 const About = () => (
   <section className="py-12 px-6 sm:p-16 relative z-10">
     <div className="gradient-02 z-0" />
 
     <motion.div
-      variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}

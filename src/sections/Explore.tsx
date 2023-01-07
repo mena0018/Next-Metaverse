@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { TypingText, ExploreCard, TitleText } from '../components';
 import { exploreWorlds } from '../constants';
 import { ExplorerImage } from '../types';
-import { staggerContainer } from '../utils/motion';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -13,7 +12,6 @@ const Explore = () => {
   return (
     <section className="py-12 px-6 sm:p-16" id="explore">
       <motion.div
-        variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}

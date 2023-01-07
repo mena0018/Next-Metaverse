@@ -41,19 +41,6 @@ export const slideIn = (
   },
 });
 
-export const staggerContainer = (
-  staggerChildren?: number,
-  delayChildren?: number
-) => ({
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren,
-      delayChildren,
-    },
-  },
-});
-
 export const textVariant = (delay: number) => ({
   hidden: {
     y: 50,
