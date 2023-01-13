@@ -1,6 +1,6 @@
-import { ExplorerImage } from '.';
-import { ReactNode } from 'react';
-import { Feature } from './index';
+import { ExplorerImage } from ".";
+import { ReactNode } from "react";
+import { Feature } from "./index";
 
 export type ExploreProps = {
   item: ExplorerImage;
@@ -26,4 +26,9 @@ export type StartStepsProps = {
 
 export type NewFeaturesProps = {
   data: Feature;
+};
+
+export type InsightProps = {
+  data: Feature;
+  index: number;
 };
