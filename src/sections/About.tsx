@@ -6,7 +6,7 @@ import { TypingText } from '../components';
 import { fadeIn } from '../utils/motion';
 
 const About = () => (
-  <section className="py-12 px-6 sm:p-16 relative z-10">
+  <section className="container-global">
     <div className="gradient-02 z-0" />
 
     <motion.div

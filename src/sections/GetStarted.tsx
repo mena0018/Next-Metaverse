@@ -9,7 +9,7 @@ import { StartSteps } from '../components';
 import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
-  <section className="py-12 px-6 sm:p-16">
+  <section className="container-global">
     <motion.div
       initial="hidden"
       whileInView="show"

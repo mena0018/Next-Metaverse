@@ -10,7 +10,7 @@ const Explore = () => {
   const [active, setActive] = useState('world-2');
 
   return (
-    <section className="py-12 px-6 sm:p-16" id="explore">
+    <section className="container-global" id="explore">
       <motion.div
         initial="hidden"
         whileInView="show"

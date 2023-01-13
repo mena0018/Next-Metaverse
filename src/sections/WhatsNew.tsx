@@ -10,7 +10,7 @@ import { Feature } from '../types';
 import { NewFeatures } from '../components';
 
 const WhatsNew = () => (
-  <section className="py-12 px-6 sm:p-16">
+  <section className="container-global">
     <motion.div
       initial="hidden"
       whileInView="show"

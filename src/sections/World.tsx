@@ -11,7 +11,7 @@ import TopLeft from '/public/people-02.png';
 import Middle from '/public/people-03.png';
 
 const World = () => (
-  <section className="py-12 px-6 sm:p-16">
+  <section className="container-global">
     <motion.div
       initial="hidden"
       whileInView="show"
