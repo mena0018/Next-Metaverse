@@ -17,8 +17,10 @@
   .hero-D-text {
     @apply border-white w-[60px] sm:w-[80px] md:w-[212px] h-[38px] sm:h-[48px] md:h-[108px] border-[9px] md:border-[18px] rounded-r-[50px] mx-[6px] sm:mx-2;
   }
+  .container-global {
+    @apply py-12 px-6 sm:p-16 relative z-10;
+  }
 }
-
 
 .gradient-01 {
   background-image: linear-gradient(
@@ -114,4 +116,19 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+
+/* ====== SCROLLBAR ======*/
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #323f5d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7764d5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1a232e;
 }
