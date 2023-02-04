@@ -88,14 +88,6 @@
   transform: rotate(-53.13deg);
 }
 
-.gradient-05 {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
 .feedback-gradient {
   position: absolute;
   width: 200px;
